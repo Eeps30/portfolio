@@ -14,6 +14,11 @@ body {
   }
 }
 
+.headshot {
+  border-radius: 50%;
+  max-height: 40vh;
+}
+
 .carousel-item {
   height: 65vh;
   min-height: 300px;
