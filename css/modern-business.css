@@ -8,14 +8,24 @@ body {
   padding-top: 54px;
 }
 
+h2 {
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
   }
 }
 
+.headshot {
+  border-radius: 50%;
+  max-height: 40vh;
+}
+
 .carousel-item {
-  height: 65vh;
+  height: 75vh;
   min-height: 300px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -26,4 +36,36 @@ body {
 
 .portfolio-item {
   margin-bottom: 30px;
+}
+
+.techSkills > img {
+  height: 140px;
+  width: 140px;
+  margin: 20px;
+}
+
+.heroImageName {
+  font-size: 3.75rem;
+}
+
+.heroImageSubname {
+  font-size: 2rem;
+}
+
+.footer {
+  height: 15vh;
+  background-color: #212529;
+  color: white;
+}
+
+.footer h4 {
+  margin-top: 20px;
+}
+
+.webIcon {
+  height: 40px;
+  width: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
 }
