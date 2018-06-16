@@ -45,7 +45,7 @@
 
 @media screen and (max-width: 544px) {
     .techSkills > img {
-        width: 34vw;
+        width: 40%;
     }
 }
 
@@ -74,25 +74,25 @@
     }
 
     .techSkills > img {
-        width: 33vw;
+        width: 39%;
     }
 }
 
 @media screen and (max-width: 468px) {
     .techSkills > img {
-        width: 32vw;
+        width: 38%;
     }
 }
 
 @media screen and (max-width: 442px) {
     .techSkills > img {
-        width: 31vw;
+        width: 37%;
     }
 }
 
 @media screen and (max-width: 419px) {
     .techSkills > img {
-        width: 30vw;
+        width: 37%;
     }
 }
 
@@ -102,6 +102,6 @@
     }
 
     .techSkills > img {
-        width: 27vw;
+        width: 34%;
     }
 }
