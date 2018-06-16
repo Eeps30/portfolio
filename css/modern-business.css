@@ -21,17 +21,18 @@ h2 {
 
 .headshot {
   border-radius: 50%;
-  max-height: 40vh;
+  max-height: 340px;
+  min-height: 225px;
 }
 
 .carousel-item {
   height: 75vh;
-  min-height: 300px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  min-height: 680px;
 }
 
 .portfolio-item {
@@ -40,7 +41,7 @@ h2 {
 
 .techSkills > img {
   height: 140px;
-  width: 140px;
+  width: 12%;
   margin: 20px;
 }
 

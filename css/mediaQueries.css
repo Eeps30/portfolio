@@ -1,0 +1,107 @@
+@media screen and (max-width: 1200px) {
+    .techSkills > img {
+        width: 11%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .techSkills > img {
+        width: 26.5%;
+    }
+
+    .footer {
+        height: 23vh;
+    }
+
+    .footer h4 {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .headshot {
+        display: block!important;
+        min-width: 150px;
+    }
+
+    .heroImageName {
+        font-size: 3.75rem;
+    }
+
+    .techSkills > img {
+        width: 41.2%;
+    }
+
+    .footer {
+        height: 56vh;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .techSkills > img {
+        width: 41%;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .techSkills > img {
+        width: 34vw;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .heroImageName {
+        font-size: 2.5rem;
+    }
+
+    .heroImageSubname {
+        font-size: 1.5rem;
+    }
+
+    .headshot {
+        display: block!important;
+        min-width: 150px;
+    }
+
+    .heroImageSubname {
+        margin-bottom: 7rem;
+    }
+}
+
+@media screen and (max-width: 498px) {
+    .headshot {
+        max-height: 240px;
+    }
+
+    .techSkills > img {
+        width: 33vw;
+    }
+}
+
+@media screen and (max-width: 468px) {
+    .techSkills > img {
+        width: 32vw;
+    }
+}
+
+@media screen and (max-width: 442px) {
+    .techSkills > img {
+        width: 31vw;
+    }
+}
+
+@media screen and (max-width: 419px) {
+    .techSkills > img {
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .headshot {
+        max-height: 240px;
+    }
+
+    .techSkills > img {
+        width: 27vw;
+    }
+}

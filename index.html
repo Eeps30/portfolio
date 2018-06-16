@@ -15,6 +15,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/modern-business.css" rel="stylesheet">
+    <link href="css/mediaQueries.css" rel="stylesheet">
 
   </head>
 
@@ -28,23 +29,21 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="about.html">About</a>
-            </li>
+            </li> -->
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link js-scroll-trigger active" href="#contact">Contact</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Portfolio
-              </a>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+              <a class="nav-link js-scroll-trigger active" href="#portfolio">Portfolio</a>
+              <!-- <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
                 <a class="dropdown-item" href="portfolio-1-col.html">1 Column Portfolio</a>
                 <a class="dropdown-item" href="portfolio-2-col.html">2 Column Portfolio</a>
                 <a class="dropdown-item" href="portfolio-3-col.html">3 Column Portfolio</a>
                 <a class="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>
                 <a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>
-              </div>
+              </div> -->
             </li>
           </ul>
         </div>
@@ -56,7 +55,7 @@
         <div class="carousel-inner" role="listbox">
           <!-- Slide One - Set the background image for this slide in the line below -->
           <div class="carousel-item active" style="background-image: url('./images/nature.jpg')">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption">
               <img class="img-fluid mb-5 d-block mx-auto img-circle headshot" src="./images/headshotCropped.png" alt="headshot">
               <h3 class="heroImageName">Evan Ippolito</h3>
               <p class="heroImageSubname">Web Developer</p>
@@ -67,7 +66,7 @@
     </header>
 
     <!-- Page Content -->
-    <div class="container">
+    <div class="container" id="portfolio">
 
       <!-- Portfolio Section -->
       <h2 class="portfolioHeader text-center"><u>Portfolio</u></h2>
@@ -75,34 +74,37 @@
       <div class="row">
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="portfolio-item.html"><img class="card-img-top" src="./images/partpigScaled(new).png" alt=""></a>
+            <img class="card-img-top" src="./images/partpigScaled(new).png" alt="">
             <div class="card-body">
               <h4 class="card-title">
-                <a href="portfolio-item.html">Part Pig E-Commerce Site</a>
+                <a>Part Pig E-Commerce Site</a>
               </h4>
               <p class="card-text">Part Pig is an E-Commerce site built to facilitate the sale of used auto parts between buyer and seller. This app was built to use in the market after our time working in class as a team was over.</p>
+              <a href="http://partpig.evanippolito.online/" target="_blank"><h6>Live Site</h6></a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="portfolio-item2.html"><img class="card-img-top" src="./images/sgtScaled(new).png" alt=""></a>
+            <img class="card-img-top" src="./images/sgtScaled(new).png" alt="">
             <div class="card-body">
               <h4 class="card-title">
-                <a href="portfolio-item2.html">Student Grade Table</a>
+                <a>Student Grade Table</a>
               </h4>
               <p class="card-text">Student Grade Table is a CMS system used to store data about Students and Teachers such as name, class size, course name and grade. The backend for this app was build with Node.JS, the front with React. </p>
+              <a href="http://sgt.evanippolito.online/" target="_blank"><h6>Live Site</h6></a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="portfolio-item3.html"><img class="card-img-top" src="./images/jobMapScaled.png" alt=""></a>
+            <img class="card-img-top" src="./images/jobMapScaled.png" alt="">
             <div class="card-body">
               <h4 class="card-title">
-                <a href="portfolio-item3.html">Job Map</a>
+                <a>Job Map</a>
               </h4>
               <p class="card-text">Job Map is an application used to find jobs in a specified area combined with a Map, to give the user a visual layout of their search.</p>
+              <a href="https://evanippolito.online/Job-Map-Official/" target="_blank"><h6>Live Site</h6></a>
             </div>
           </div>
         </div>
@@ -110,23 +112,24 @@
       <!-- /.row -->
 
       <!-- Features Section -->
-      <div class="row">
-        <div class="col-lg-12 techSkills">
-          <h2 class="text-center"><u>Technical Skills</u></h2>
-          <img src="./images/technical/javascript.svg">
-          <img src="./images/technical/react.svg">
-          <img src="./images/technical/redux.png">
-          <img src="./images/technical/html5.svg">
-          <img src="./images/technical/css3.svg">
-          <img src="./images/technical/jquery.svg">
-          <img src="./images/technical/bootstrap.svg">
-          <img src="./images/technical/nodejs.svg">
-          <img src="./images/technical/apache.svg">
-          <img src="./images/technical/mysql.svg">
-          <img src="./images/technical/php.svg">
-          <img src="./images/technical/ubuntu.svg">
-        </div>
+      <div class="container">
+
       </div>
+          <div class="col-lg-12 techSkills">
+            <h2 class="text-center"><u>Technical Skills</u></h2>
+            <img src="./images/technical/javascript.svg">
+            <img src="./images/technical/react.svg">
+            <img src="./images/technical/redux.png">
+            <img src="./images/technical/html5.svg">
+            <img src="./images/technical/css3.svg">
+            <img src="./images/technical/jquery.svg">
+            <img src="./images/technical/bootstrap.svg">
+            <img src="./images/technical/nodejs.svg">
+            <img src="./images/technical/apache.svg">
+            <img src="./images/technical/mysql.svg">
+            <img src="./images/technical/php.svg">
+            <img src="./images/technical/ubuntu.svg">
+        </div>
 
       <div class="row">
           <div class="col-lg-12 techSkills">
@@ -145,7 +148,7 @@
 
       <!-- Contact Form -->
       <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
-      <div class="container">
+      <div class="container" id="contact">
           <div class="col-lg-8" style="margin: 0 auto; margin-top: 7%; margin-bottom: 7%;">
             <h2 class="text-center"><u>Contact Me</u></h2>
             <form name="sentMessage" id="contactForm" novalidate>
