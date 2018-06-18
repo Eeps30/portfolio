@@ -1,5 +1,13 @@
 $(function() {
 
+  $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
+    preventSubmit: true,
+    submitError: function($form, event, errors) {
+      // additional error messages or events
+    },
+    submitSuccess: function($form, event) {
+      event.preventDefault(); // prevent default submit behaviour
+      // get values from FORM
       var name = $("input#name").val();
       var email = $("input#email").val();
       var phone = $("input#phone").val();
@@ -49,6 +57,11 @@ $(function() {
           }, 1000);
         }
       });
+    },
+    filter: function() {
+      return $(this).is(":visible");
+    },
+  });
 
   $("a[data-toggle=\"tab\"]").click(function(e) {
     e.preventDefault();
