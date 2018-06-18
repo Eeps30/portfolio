@@ -1,6 +1,5 @@
 $(function() {
-      event.preventDefault(); // prevent default submit behaviour
-      // get values from FORM
+
       var name = $("input#name").val();
       var email = $("input#email").val();
       var phone = $("input#phone").val();
@@ -50,15 +49,14 @@ $(function() {
           }, 1000);
         }
       });
-    },
-    
 
-  // $("a[data-toggle=\"tab\"]").click(function(e) {
-  //   e.preventDefault();
-  //   $(this).tab("show");
-  // });
+  $("a[data-toggle=\"tab\"]").click(function(e) {
+    e.preventDefault();
+    $(this).tab("show");
+  });
+});
 
-// /*When clicking on Full hide fail/success boxes */
-// $('#name').focus(function() {
-//   $('#success').html('');
-// });
+/*When clicking on Full hide fail/success boxes */
+$('#name').focus(function() {
+  $('#success').html('');
+});
