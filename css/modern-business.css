@@ -78,3 +78,7 @@ h2 {
 .pageLinks > a:nth-child(2) {
   margin-left: 20px;
 }
+
+.footerEmail {
+  color: white;
+}

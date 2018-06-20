@@ -105,3 +105,21 @@
         width: 34%;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .techSkills > img {
+        width: 33%;
+    }
+
+    .footer {
+        height: 105vh;
+    }
+
+    .heroImageName {
+        font-size: 2.3rem;
+    }
+
+    .headshot {
+        min-height: 207px;
+    }
+}
