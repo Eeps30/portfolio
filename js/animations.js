@@ -4,7 +4,6 @@ $(document).ready(function(){
          var id = $(this).attr('id');
          $('a').removeClass('active');
          $("a[href*="+id+"]").addClass('active');
-        //  $("a[href=#"+id+"]").addClass('active');
     });
  
  });
