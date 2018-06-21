@@ -26,7 +26,7 @@ h2 {
 }
 
 .carousel-item {
-  height: 95vh;
+  height: 100vh;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -92,6 +92,10 @@ h2 {
 }
 
 .techSkillsSection {
+  padding: 75px 0;
+}
+
+.contactSection {
   padding: 75px 0;
 }
 
