@@ -17,6 +17,14 @@
     <link href="css/modern-business.css" rel="stylesheet">
     <link href="css/mediaQueries.css" rel="stylesheet">
 
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
   </head>
 
   <body>
@@ -32,18 +40,17 @@
             <!-- <li class="nav-item">
               <a class="nav-link" href="about.html">About</a>
             </li> -->
+            <li class="nav-item dropdown">
+              <a class="nav-link js-scroll-trigger active" href="#portfolioSection">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger active" href="#techSkillsSection">Technical Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger active" href="#aboutMeSection">Profile</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger active" href="#contact">Contact</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link js-scroll-trigger active" href="#portfolio">Portfolio</a>
-              <!-- <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                <a class="dropdown-item" href="portfolio-1-col.html">1 Column Portfolio</a>
-                <a class="dropdown-item" href="portfolio-2-col.html">2 Column Portfolio</a>
-                <a class="dropdown-item" href="portfolio-3-col.html">3 Column Portfolio</a>
-                <a class="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>
-                <a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>
-              </div> -->
             </li>
           </ul>
         </div>
@@ -58,7 +65,7 @@
             <div class="carousel-caption">
               <img class="img-fluid mb-5 d-block mx-auto img-circle headshot" src="./images/headshotCropped.png" alt="headshot">
               <h3 class="heroImageName">Evan Ippolito</h3>
-              <p class="heroImageSubname">Web Developer</p>
+              <p class="heroImageSubname">Software Developer</p>
             </div>
           </div>
         </div>
@@ -66,94 +73,123 @@
     </header>
 
     <!-- Page Content -->
-    <div class="container" id="portfolio">
+    <section id="portfolioSection" class="portfolioSection"></section>
+      <div class="container" id="portfolio">
 
-      <!-- Portfolio Section -->
-      <h2 class="portfolioHeader text-center"><u>Portfolio</u></h2>
+        <!-- Portfolio Section -->
+        <h2 class="portfolioHeader text-center"><u>Portfolio</u></h2>
 
-      <div class="row">
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <img class="card-img-top" src="./images/partpigScreenshot.png" alt="">
-            <div class="card-body">
-              <h4 class="card-title">
-                <a>Part Pig E-Commerce Site</a>
-              </h4>
-              <p class="card-text">Part Pig is an E-Commerce site built to facilitate the sale of used auto parts between buyer and seller. This app was built to use in the market after our time working in class as a team was over.</p>
-              <div class="pageLinks">
-                <a href="http://partpig.evanippolito.online/" target="_blank"><h6>LIVE SITE</h6></a>
-                <a href="https://github.com/Eeps30/teampartpig" target="_blank"><h6>GITHUB</h6></a>
+        <div class="row">
+          <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="card h-100">
+              <img class="card-img-top" src="./images/partpigScreenshot.png" alt="">
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a>Part Pig E-Commerce Site</a>
+                </h4>
+                <p class="card-text">Part Pig is an E-Commerce site built to facilitate the sale of used auto parts between buyer and seller. This app was built to use in the market after our time working in class as a team was over.</p>
+                <div class="pageLinks">
+                  <a href="http://partpig.evanippolito.online/" target="_blank"><h6>LIVE SITE</h6></a>
+                  <a href="https://github.com/Eeps30/teampartpig" target="_blank"><h6>GITHUB</h6></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="card h-100">
+              <img class="card-img-top" src="./images/sgtScaled(new).png" alt="">
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a>Student Grade Table</a>
+                </h4>
+                <p class="card-text">Student Grade Table is a CMS system used to store data about Students and Teachers such as name, class size, course name and grade. The backend for this app was build with Node.JS, the front with React. </p>
+                <div class="pageLinks">
+                  <a href="http://sgt.evanippolito.online/" target="_blank"><h6>LIVE SITE</h6></a>
+                  <a href="https://github.com/Eeps30/SGT-Redux" target="_blank"><h6>GITHUB</h6></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="card h-100">
+              <img class="card-img-top" src="./images/jobMapScreenshot.png" alt="">
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a>Job Map</a>
+                </h4>
+                <p class="card-text">Job Map is an application used to find jobs in a specified area combined with a Map, to give the user a visual layout of their search.</p>
+                <div class="pageLinks">
+                  <a href="https://evanippolito.online/Job-Map-Official/" target="_blank"><h6>LIVE SITE</h6></a>
+                  <a href="https://github.com/Eeps30/Job-Map-Official" target="_blank"><h6>GITHUB</h6></a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <img class="card-img-top" src="./images/sgtScaled(new).png" alt="">
-            <div class="card-body">
-              <h4 class="card-title">
-                <a>Student Grade Table</a>
-              </h4>
-              <p class="card-text">Student Grade Table is a CMS system used to store data about Students and Teachers such as name, class size, course name and grade. The backend for this app was build with Node.JS, the front with React. </p>
-              <div class="pageLinks">
-                <a href="http://sgt.evanippolito.online/" target="_blank"><h6>LIVE SITE</h6></a>
-                <a href="https://github.com/Eeps30/SGT-Redux" target="_blank"><h6>GITHUB</h6></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <img class="card-img-top" src="./images/jobMapScreenshot.png" alt="">
-            <div class="card-body">
-              <h4 class="card-title">
-                <a>Job Map</a>
-              </h4>
-              <p class="card-text">Job Map is an application used to find jobs in a specified area combined with a Map, to give the user a visual layout of their search.</p>
-              <div class="pageLinks">
-                <a href="https://evanippolito.online/Job-Map-Official/" target="_blank"><h6>LIVE SITE</h6></a>
-                <a href="https://github.com/Eeps30/Job-Map-Official" target="_blank"><h6>GITHUB</h6></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      </section>
       <!-- /.row -->
 
-      <!-- Features Section -->
-      <div class="container">
+      <!-- Tech Skills Section -->
+      <section id="techSkillsSection" class="techSkillsSection">
+        <div class="container">
 
-      </div>
-          <div class="col-lg-12 techSkills">
-            <h2 class="text-center"><u>Technical Skills</u></h2>
-            <img src="./images/technical/javascript.svg">
-            <img src="./images/technical/react.svg">
-            <img src="./images/technical/reduxLogo.svg">
-            <img src="./images/technical/html5.svg">
-            <img src="./images/technical/css3.svg">
-            <img src="./images/technical/jquery.svg">
-            <img src="./images/technical/bootstrap.svg">
-            <img src="./images/technical/nodejs.svg">
-            <img src="./images/technical/apache.svg">
-            <img src="./images/technical/mysql.svg">
-            <img src="./images/technical/php.svg">
-            <img src="./images/technical/ubuntu.svg">
         </div>
-
-      <div class="row">
-          <div class="col-lg-12 techSkills">
-            <h2 class="text-center"><u>Developer Tools</u></h2>
-            <img src="./images/devTools/chrome.svg">
-            <img src="./images/devTools/git.svg">
-            <img src="./images/devTools/github.svg">
-            <img src="./images/technical/jiraLogo.svg">
-            <img src="./images/devTools/npm.svg">
-            <img src="./images/devTools/slack.svg">
+            <div class="col-lg-12 techSkills">
+              <h2 class="text-center"><u>Technical Skills</u></h2>
+              <img src="./images/technical/javascript.svg">
+              <img src="./images/technical/react.svg">
+              <img src="./images/technical/reduxLogo.svg">
+              <img src="./images/technical/html5.svg">
+              <img src="./images/technical/css3.svg">
+              <img src="./images/technical/jquery.svg">
+              <img src="./images/technical/bootstrap.svg">
+              <img src="./images/technical/nodejs.svg">
+              <img src="./images/technical/apache.svg">
+              <img src="./images/technical/mysql.svg">
+              <img src="./images/technical/php.svg">
+              <img src="./images/technical/ubuntu.svg">
           </div>
-        </div>
+
+          <div class="row">
+            <div class="col-lg-12 techSkills">
+              <h2 class="text-center"><u>Developer Tools</u></h2>
+              <img src="./images/devTools/chrome.svg">
+              <img src="./images/devTools/git.svg">
+              <img src="./images/devTools/github.svg">
+              <img src="./images/technical/jiraLogo.svg">
+              <img src="./images/devTools/npm.svg">
+              <img src="./images/devTools/slack.svg">
+            </div>
+          </div>
+      </section>
       <!-- /.row -->
 
       <hr>
+
+      <!-- About Me Section -->
+      <section id="aboutMeSection" class="aboutMeSection">
+          <h2 class="text-center"><u>Personal Profile</u></h2>
+          <div class="row">
+            <div class="col-lg-4 ml-auto">
+              <p>I've been a problem solver my whole life. Since I can remember, I've held the responsibility of computer repair guy for my family,
+                in all respects. Looking back on my experience, I can see that the challenges put before me
+                were gifts that allowed me to find out what I naturally do well. Troubleshooting, debugging and building quality experiences
+                with code for others to make their lives easier is what drives me and brings me great joy. 
+              </p>
+            </div>
+            <div class="col-lg-4 mr-auto">
+              <p>Aiming to expand the reaches of this ability, I attended a three month class at LearningFuze to become a Web Developer.
+                Taking this class has shown me how enjoyable writing code is. 
+                <br>
+                <br>
+                When I am not programming, I am listening to various podcasts, at the gym, hiking or searching for new music online.
+                Drop me a line in the contact form below, I would love to work with you!
+              </p>
+            </div>
+          </div>
+      </section>
+  
+        <!-- /.about me -->
 
       <!-- Contact Form -->
       <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->

@@ -76,6 +76,10 @@
     .techSkills > img {
         width: 39%;
     }
+
+    .carousel-caption > p {
+        margin-bottom: 13rem;
+      }
 }
 
 @media screen and (max-width: 468px) {

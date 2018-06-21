@@ -26,7 +26,7 @@ h2 {
 }
 
 .carousel-item {
-  height: 75vh;
+  height: 95vh;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -81,4 +81,20 @@ h2 {
 
 .footerEmail {
   color: white;
+}
+
+.aboutMeSection {
+  padding: 75px 0; 
+}
+
+.portfolioSection {
+  padding: 50px 0;
+}
+
+.techSkillsSection {
+  padding: 75px 0;
+}
+
+.carousel-caption > p {
+  margin-bottom: 11rem;
 }
