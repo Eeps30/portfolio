@@ -19,10 +19,11 @@ h2 {
   }
 }
 
-.headshot {
-  border-radius: 50%;
-  max-height: 340px;
-  min-height: 225px;
+.headshotCropped {
+  margin-left: 19vw;
+  height: 23vw;
+  position: relative;
+  bottom: 58px;
 }
 
 .carousel-item {
@@ -46,7 +47,15 @@ h2 {
 }
 
 .heroImageName {
-  font-size: 3.75rem;
+  text-shadow: 1px 1px 15px #000000;
+  margin: 0;
+  padding: 0;
+  font-size: 4.5em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  line-height: 1em;
+  text-transform: uppercase;
+  margin-bottom: 50px;
 }
 
 .heroImageSubname {
@@ -100,9 +109,17 @@ h2 {
 }
 
 .carousel-caption > p {
-  margin-bottom: 11rem;
+  margin-bottom: 20rem;
 }
 
 .active{
-  
+  color: white;
+}
+
+.personalQuote {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  margin-left: 240px;
+  position: relative;
+  bottom: 55px;
 }
