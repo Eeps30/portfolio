@@ -4,7 +4,7 @@
     }
 
     .headshotCropped {
-        margin-left: 57%;
+        margin-left: 15%;
         margin-top: 6%;
     }
 
@@ -20,7 +20,7 @@
     }
 
     .headshotCropped {
-        margin-left: 45%;
+        margin-left: 20%;
         margin-top: 6%;
     }
 
@@ -36,7 +36,7 @@
     }
 
     .headshotCropped {
-        margin-left: 36%;
+        margin-left: 20%;
         margin-top: 6%;
     }
 
@@ -52,7 +52,7 @@
     }
 
     .headshotCropped {
-        margin-left: 25%;
+        margin-left: 0;
         margin-top: 10%;
     }
 
@@ -88,37 +88,37 @@
     }
 
     .headshotCropped {
-        margin-left: 42%;
+        margin-left: 27%;
     }
 }
 
 @media screen and (max-width: 970px) {
     .headshotCropped {
-        margin-left: 41%;
+        margin-left: 28%;
     }
 }
 
 @media screen and (max-width: 950px) {
     .headshotCropped {
-        margin-left: 40%;
+        margin-left: 28%;
     }
 }
 
 @media screen and (max-width: 900px) {
     .headshotCropped {
-        margin-left: 38%;
+        margin-left: 28%;
     }
 }
 
 @media screen and (max-width: 850px) {
     .headshotCropped {
-        margin-left: 36%;
+        margin-left: 28%;
     }
 }
 
 @media screen and (max-width: 800px) {
     .headshotCropped {
-        margin-left: 32%;
+        margin-left: 28%;
     }
 
     .personalQuote {
@@ -129,7 +129,7 @@
 
 @media screen and (max-width: 768px) {
     .headshotCropped {
-        margin-left: 20%;
+        margin-left: 7%;
     }
     
     .headshot {
@@ -152,7 +152,7 @@
 
 @media screen and (max-width: 720px) {
     .headshotCropped {
-        margin-left: 19%;
+        margin-left: 10%;
         height: 47vh;
     }
     
@@ -176,14 +176,14 @@
 
 @media screen and (max-width: 700px) {
     .headshotCropped {
-        margin-left: 19%;
+        margin-left: 12%;
         height: 45vh;
     }
 }
 
 @media screen and (max-width: 630px) {
     .headshotCropped {
-        margin-left: 19%;
+        margin-left: 13%;
         height: 44vh;
     }
 }
@@ -209,6 +209,11 @@
 @media screen and (max-width: 544px) {
     .techSkills > img {
         width: 40%;
+    }
+
+    .headshotCropped {
+        margin-left: 17%;
+        height: 38vh;
     }
 }
 
