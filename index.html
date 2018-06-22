@@ -39,20 +39,20 @@
           <a class="nav-link js-scroll-trigger active navIcon" href="#homeSection"><img src="images/favicon/favicon-32x32.png"></a>
           <div class="container">
             <ul class="navbar-nav ml-auto">
-              <!-- <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li> -->
-              <li class="nav-item dropdown">
-                <a class="nav-link js-scroll-trigger active" href="#portfolioSection">Portfolio</a>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger active profileNav" href="#aboutMeSection">Profile</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link js-scroll-trigger active" href="#techSkillsSection">Technical Skills</a>
+                <a class="nav-link js-scroll-trigger active portfolioNav" href="#portfolioSection">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link js-scroll-trigger active" href="#aboutMeSection">Profile</a>
+                <a class="nav-link js-scroll-trigger active techSkillsNav" href="#techSkillsSection">Technical Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link js-scroll-trigger active" href="#contactSection">Contact</a>
+                <a class="nav-link js-scroll-trigger active contactNav" href="#contactSection">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a target="_blank" class="nav-link js-scroll-trigger active" href="https://docs.google.com/document/d/1z7T-B_O455mMaaO1Af_doJc2hy--J5SkoI5Ej3yzYMw/edit?usp=sharing">Resume</a>
               </li>
             </ul>
           </div>
@@ -69,6 +69,7 @@
               <div class="carousel-caption">
                 <h3 class="heroImageName">Evan Ippolito</h3>
                 <p class="heroImageSubname">Software Developer</p>
+                <a><button class="aboutMeButton btn btn-outline-light">About Me</button></a>
               </div>
             </div>
           </div>
@@ -78,22 +79,25 @@
 
     <!-- About Me Section -->
     <section id="aboutMeSection" class="aboutMeSection">
-        <h2 class="text-center"><u>Personal Profile</u></h2>
+        <h2 class="text-center personalProfile"><u>Personal Profile</u></h2>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-lg-4 col-md-8">
             <img class="headshotCropped" src="images/headshotCropped.png">
           </div>
-          <div class="col-md-6">
-            <p class="personalQuote">I've been a problem solver my whole life. Since I can remember, I've held the responsibility of computer repair guy for my family,
+          <div class="col-lg-4 col-md-8 personalQuote">
+            <p class="profileQuote">
+              Programmer aspiring to learn from every opportunity.
+            </p>
+            <p>I've been a problem solver my whole life. Since I can remember, I've held the responsibility of computer repair guy for my family,
               in all respects. Looking back on my experience, I can see that the challenges put before me
               were gifts that allowed me to find out what I naturally do well. Troubleshooting, debugging and building quality experiences
               with code for others to make their lives easier is what drives me and brings me great joy.
-              <br>
-              <br>
+            </p>
+            <p>
             Aiming to expand the reaches of this ability, I attended a three month class at LearningFuze to become a Web Developer.
               Taking this class has shown me how enjoyable writing code is. 
-              <br>
-              <br>
+            </p>
+            <p>
               When I am not programming, I am listening to various podcasts, at the gym, hiking or searching for new music online.
               Drop me a line in the contact form below, I would love to work with you!
             </p>
@@ -202,7 +206,7 @@
       <section id="contactSection" class="contactSection">
         <div class="container" id="contact">
             <div class="col-lg-8" style="margin: 0 auto; margin-top: 7%; margin-bottom: 7%;">
-              <h2 class="text-center"><u>Contact Me</u></h2>
+              <h2 class="text-center"><u>Contact</u></h2>
               <form name="sentMessage" id="contactForm" novalidate>
                 <div class="control-group form-group">
                   <div class="controls">

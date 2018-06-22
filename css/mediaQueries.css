@@ -1,6 +1,47 @@
+@media screen and (max-width: 1980px) {
+    .techSkills > img {
+        width: 12%;
+    }
+
+    .headshotCropped {
+        margin-left: 57%;
+        margin-top: 6%;
+    }
+
+    .personalQuote {
+        margin-top: 2%;
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .techSkills > img {
+        width: 12%;
+    }
+
+    .headshotCropped {
+        margin-left: 36%;
+        margin-top: 6%;
+    }
+
+    .personalQuote {
+        margin-top: 2%;
+        margin-left: 20%;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .techSkills > img {
         width: 11%;
+    }
+
+    .headshotCropped {
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+
+    .personalQuote {
+        margin-top: 2%;
     }
 }
 
@@ -20,9 +61,61 @@
     .navIcon {
         display: none;
     }
+
+    .personalQuote {
+        margin: auto;
+    }
+
+    .profileQuote {
+        margin-top: 11%;
+        text-align: center;
+    }
+
+    .headshotCropped {
+        margin-left: 42%;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .headshotCropped {
+        margin-left: 41%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .headshotCropped {
+        margin-left: 40%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .headshotCropped {
+        margin-left: 38%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .headshotCropped {
+        margin-left: 36%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .headshotCropped {
+        margin-left: 32%;
+    }
+
+    .personalQuote {
+        margin: auto;
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 768px) {
+    .headshotCropped {
+        margin-left: 20%;
+    }
+    
     .headshot {
         display: block!important;
         min-width: 150px;
@@ -41,7 +134,57 @@
     }
 }
 
+@media screen and (max-width: 720px) {
+    .headshotCropped {
+        margin-left: 19%;
+        height: 47vh;
+    }
+    
+    .headshot {
+        display: block!important;
+        min-width: 150px;
+    }
+
+    .heroImageName {
+        font-size: 3.75rem;
+    }
+
+    .techSkills > img {
+        width: 41.2%;
+    }
+
+    .footer {
+        height: 70vh;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .headshotCropped {
+        margin-left: 19%;
+        height: 45vh;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .headshotCropped {
+        margin-left: 19%;
+        height: 44vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .headshotCropped {
+        margin-left: 19%;
+        height: 40vh;
+    }
+}
+
 @media screen and (max-width: 555px) {
+    .headshotCropped {
+        margin-left: 19%;
+        height: 38vh;
+    }
+
     .techSkills > img {
         width: 41%;
     }
@@ -70,6 +213,15 @@
     .heroImageSubname {
         margin-bottom: 7rem;
     }
+
+    .carousel-caption > p {
+        margin-bottom: 9rem;
+        text-transform: uppercase;
+    }
+
+    .headshotCropped {
+        height: 36vh;
+    }
 }
 
 @media screen and (max-width: 498px) {
@@ -82,19 +234,52 @@
     }
 
     .carousel-caption > p {
-        margin-bottom: 13rem;
-      }
+        margin-bottom: 9rem;
+        text-transform: uppercase;
+    }
+
+    .headshotCropped {
+        height: 34vh;
+    }
 }
 
 @media screen and (max-width: 468px) {
     .techSkills > img {
         width: 38%;
     }
+
+    .headshotCropped {
+        height: 32vh;
+    }
 }
 
 @media screen and (max-width: 442px) {
     .techSkills > img {
         width: 37%;
+    }
+
+    .headshotCropped {
+        height: 31vh;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .techSkills > img {
+        width: 37%;
+    }
+
+    .headshotCropped {
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .techSkills > img {
+        width: 37%;
+    }
+
+    .headshotCropped {
+        height: 29vh;
     }
 }
 
@@ -111,6 +296,24 @@
 
     .techSkills > img {
         width: 34%;
+    }
+
+    .headshotCropped {
+        height: 27.5vh;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .headshot {
+        max-height: 240px;
+    }
+
+    .techSkills > img {
+        width: 34%;
+    }
+
+    .headshotCropped {
+        height: 24vh;
     }
 }
 

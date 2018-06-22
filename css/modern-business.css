@@ -6,11 +6,12 @@
 
 body {
   padding-top: 54px;
+  overflow-x: hidden;
 }
 
 h2 {
-  margin-top: 7%;
-  margin-bottom: 7%;
+  margin-top: 6%;
+  margin-bottom: 5%;
 }
 
 @media (min-width: 992px) {
@@ -20,10 +21,12 @@ h2 {
 }
 
 .headshotCropped {
-  margin-left: 19vw;
-  height: 23vw;
+  height: 400px;
+  margin-left: 55%;
   position: relative;
-  bottom: 58px;
+  bottom: 18px;
+  border: solid black 2px;
+  box-shadow: 1px 2px;
 }
 
 .carousel-item {
@@ -38,6 +41,11 @@ h2 {
 
 .portfolio-item {
   margin-bottom: 30px;
+}
+
+.profileQuote {
+  font-size: 24px;
+  line-height: 2;
 }
 
 .techSkills > img {
@@ -93,7 +101,7 @@ h2 {
 }
 
 .aboutMeSection {
-  padding: 75px 0; 
+  padding: 50px 0; 
 }
 
 .portfolioSection {
@@ -109,7 +117,8 @@ h2 {
 }
 
 .carousel-caption > p {
-  margin-bottom: 20rem;
+  margin-bottom: 10rem;
+  text-transform: uppercase;
 }
 
 .active{
@@ -120,6 +129,15 @@ h2 {
   margin-top: 0;
   margin-bottom: 1rem;
   margin-left: 240px;
+  color: grey;
   position: relative;
-  bottom: 55px;
+  bottom: 40px;
+}
+
+.aboutMeButton {
+  margin-bottom: 150px;
+}
+
+.personalProfile {
+  margin-top: 4%;
 }
