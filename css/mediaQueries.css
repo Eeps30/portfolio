@@ -351,6 +351,7 @@
     }
 
     .headshotCropped {
-        height: 37vh;
+        height: 34vh;
+        margin-bottom: 3vh;
     }
 }
