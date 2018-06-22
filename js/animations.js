@@ -5,7 +5,7 @@ $(document).ready(function(){
          $('a').removeClass('active');
          $("a[href*="+id+"]").addClass('active');
     });
- });
+});
 
 $(".navIcon").click(function() {
     $('html,body').animate({
@@ -42,3 +42,10 @@ $(".contactNav").click(function() {
         scrollTop: $("#contactSection").offset().top},
         'slow');
 });
+
+window.onscroll = closeMenu;
+
+function closeMenu() {
+    $('#navbarResponsive').addClass("collapse")
+    $('#navbarResponsive').removeClass("show")
+}

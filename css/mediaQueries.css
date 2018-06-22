@@ -14,6 +14,22 @@
     }
 }
 
+@media screen and (max-width: 1400px) {
+    .techSkills > img {
+        width: 12%;
+    }
+
+    .headshotCropped {
+        margin-left: 45%;
+        margin-top: 6%;
+    }
+
+    .personalQuote {
+        margin-top: 2%;
+        margin-left: 20%;
+    }
+}
+
 @media screen and (max-width: 1300px) {
     .techSkills > img {
         width: 12%;
