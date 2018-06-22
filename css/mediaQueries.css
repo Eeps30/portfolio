@@ -349,4 +349,8 @@
     .headshot {
         min-height: 207px;
     }
+
+    .headshotCropped {
+        height: 37vh;
+    }
 }

@@ -14,6 +14,15 @@ $(function() {
       var message = $("textarea#message").val();
       var firstName = name; // For Success/Failure Message
       // Check for white space in name for Success/Fail message
+      var newUl = $('<ul>')
+      var newLi = $('<li>').text('Name must not only contain whitespace')
+      newLi.appendTo(newUl);
+      if (/\S/.test(name)) {
+        console.log('String has characters besides white space');
+      }else{
+        $('.extraHelp').append(newUl);
+        return false;
+      }
       if (firstName.indexOf(' ') >= 0) {
         firstName = name.split(' ').slice(0, -1).join(' ');
       }
