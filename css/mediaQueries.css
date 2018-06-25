@@ -10,7 +10,7 @@
 
     .personalQuote {
         margin-top: 2%;
-        margin-left: 20%;
+        margin-left: 22%;
     }
 }
 
@@ -26,7 +26,7 @@
 
     .personalQuote {
         margin-top: 2%;
-        margin-left: 20%;
+        margin-left: 22%;
     }
 
     .halQuote {
@@ -46,7 +46,7 @@
 
     .personalQuote {
         margin-top: 2%;
-        margin-left: 20%;
+        margin-left: 22%;
     }
 }
 
@@ -56,17 +56,24 @@
     }
 
     .headshotCropped {
-        margin-left: 0;
+        margin-left: 10%;
         margin-top: 10%;
     }
 
     .personalQuote {
         margin-top: 2%;
+        margin-left: 25%;
     }
 
     .halQuote {
-        margin-left: 22%;
+        margin-left: 32%;
         width: 120%;
+    }
+
+    .profileQuote {
+        font-size: 24px;
+        line-height: 2;
+        margin-top: 6%;
     }
 
 }
@@ -99,6 +106,11 @@
 
     .headshotCropped {
         margin-left: 27%;
+    }
+
+    .halQuote {
+        margin-left: 20%;
+        width: 120%;
     }
 }
 
