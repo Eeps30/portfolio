@@ -418,6 +418,7 @@
     .headshotCropped {
         height: 45vh;
         margin-bottom: 3vh;
+        margin-left: 9%;
     }
 
     .halQuote {
