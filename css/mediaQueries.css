@@ -28,6 +28,10 @@
         margin-top: 2%;
         margin-left: 20%;
     }
+
+    .halQuote {
+        margin-left: 33%;
+    }
 }
 
 @media screen and (max-width: 1300px) {
@@ -59,6 +63,12 @@
     .personalQuote {
         margin-top: 2%;
     }
+
+    .halQuote {
+        margin-left: 22%;
+        width: 120%;
+    }
+
 }
 
 @media screen and (max-width: 992px) {
@@ -148,11 +158,17 @@
     .footer {
         height: 70vh;
     }
+
+    .halQuote {
+        margin-left: 0;
+        width: 112%;
+        margin-bottom: 7%;
+    }
 }
 
 @media screen and (max-width: 720px) {
     .headshotCropped {
-        margin-left: 10%;
+        margin-left: 0;
         height: 47vh;
     }
     
@@ -176,28 +192,36 @@
 
 @media screen and (max-width: 700px) {
     .headshotCropped {
-        margin-left: 12%;
+        margin-left: 2%;
         height: 45vh;
     }
 }
 
 @media screen and (max-width: 630px) {
     .headshotCropped {
-        margin-left: 13%;
+        margin-left: 5%;
         height: 44vh;
     }
+    
+    .halQuote {
+        margin-left: 2%;
 }
 
 @media screen and (max-width: 600px) {
     .headshotCropped {
-        margin-left: 19%;
+        margin-left: 9%;
         height: 40vh;
+    }
+
+    .halQuote {
+        margin-left: 14%;
+        width: 75%;
     }
 }
 
 @media screen and (max-width: 555px) {
     .headshotCropped {
-        margin-left: 19%;
+        margin-left: 11%;
         height: 38vh;
     }
 
@@ -212,7 +236,7 @@
     }
 
     .headshotCropped {
-        margin-left: 18%;
+        margin-left: 10%;
         height: 38vh;
     }
 }
@@ -334,7 +358,21 @@
     }
 
     .headshotCropped {
-        height: 30vh;
+        height: 26vh;
+    }
+}
+
+@media screen and (max-width: 353px) {
+    .headshot {
+        max-height: 240px;
+    }
+
+    .techSkills > img {
+        width: 34%;
+    }
+
+    .headshotCropped {
+        height: 23vh;
     }
 }
 
@@ -356,7 +394,7 @@
     }
 
     .headshotCropped {
-        height: 34vh;
+        height: 23vh;
         margin-bottom: 3vh;
     }
 }

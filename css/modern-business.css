@@ -20,6 +20,14 @@ h2 {
   }
 }
 
+.halQuote {
+  font-size: 1.2em;
+  margin-left: 26%;
+  margin-top: 10%;
+  width: 100%;
+  font-style: italic;
+}
+
 .headshotCropped {
   height: 400px;
   margin-left: 55%;
