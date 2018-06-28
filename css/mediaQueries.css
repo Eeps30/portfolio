@@ -180,7 +180,7 @@
 
 @media screen and (max-width: 720px) {
     .headshotCropped {
-        margin-left: 6%;
+        margin-left: 8%;
         height: 47vh;
     }
     
@@ -204,14 +204,14 @@
 
 @media screen and (max-width: 700px) {
     .headshotCropped {
-        margin-left: 7%;
+        margin-left: 10%;
         height: 45vh;
     }
 }
 
 @media screen and (max-width: 630px) {
     .headshotCropped {
-        margin-left: 8%;
+        margin-left: 11%;
         height: 44vh;
     }
     
@@ -223,7 +223,7 @@
 @media screen and (max-width: 600px) {
     .headshotCropped {
         height: 38vh;
-        margin-left: 14%;
+        margin-left: 18%;
     }
 
     .halQuote {
@@ -250,7 +250,7 @@
 
     .headshotCropped {
         height: 38vh;
-        margin-left: 13%;
+        margin-left: 15%;
     }
 }
 
@@ -299,7 +299,7 @@
 
     .headshotCropped {
         height: 38vh;
-        margin-left: 9%;
+        margin-left: 8.5%;
     }
 }
 
@@ -321,7 +321,7 @@
 
     .headshotCropped {
         height: 34vh;
-        margin-left: 6%;
+        margin-left: 8%;
     }
 }
 
@@ -343,7 +343,7 @@
 
     .headshotCropped {
         height: 34vh;
-        margin-left: 7%;
+        margin-left: 5%;
     }
 }
 
@@ -364,7 +364,7 @@
 
     .headshotCropped {
         height: 30vh;
-        margin-left: 5%;
+        margin-left: 8%;
     }
 }
 
@@ -378,7 +378,7 @@
     }
 
     .headshotCropped {
-        height: 26vh;
+        height: 242px;
         margin-left: 10%;
     }
 }
@@ -394,7 +394,7 @@
 
     .headshotCropped {
         height: 26vh;
-        margin-left: 7%;
+        margin-left: 10%;
     }
 }
 
