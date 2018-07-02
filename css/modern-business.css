@@ -26,6 +26,7 @@ h2 {
   margin-top: 10%;
   width: 100%;
   font-style: italic;
+  color: #5a5a5a;
 }
 
 .headshotCropped {
@@ -127,6 +128,7 @@ h2 {
 .carousel-caption > p {
   margin-bottom: 10rem;
   text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000000;
 }
 
 .active{
@@ -137,13 +139,18 @@ h2 {
   margin-top: 0;
   margin-bottom: 1rem;
   margin-left: 240px;
-  color: grey;
   position: relative;
   bottom: 40px;
 }
 
 .aboutMeButton {
   margin-bottom: 150px;
+  box-shadow: 2px 2px #000000;
+}
+
+.aboutMeText {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .personalProfile {
