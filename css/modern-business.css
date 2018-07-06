@@ -54,7 +54,8 @@ h2 {
 
 .profileQuote {
   font-size: 24px;
-  line-height: 2;
+  line-height: 1.6;
+  margin-bottom: 2rem;
 }
 
 .techSkills > img {

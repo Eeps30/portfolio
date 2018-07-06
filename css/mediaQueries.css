@@ -72,7 +72,6 @@
 
     .profileQuote {
         font-size: 24px;
-        line-height: 2;
         margin-top: 6%;
     }
 
@@ -84,7 +83,7 @@
     }
 
     .footer {
-        height: 28vh;
+        height: 25vh;
     }
 
     .footer h4 {
@@ -168,7 +167,7 @@
     }
 
     .footer {
-        height: 70vh;
+        height: 58vh;
     }
 
     .halQuote {
@@ -180,7 +179,7 @@
 
 @media screen and (max-width: 720px) {
     .headshotCropped {
-        margin-left: 8%;
+        margin-left: 5%;
         height: 47vh;
     }
     
@@ -198,20 +197,20 @@
     }
 
     .footer {
-        height: 70vh;
+        height: 58vh;
     }
 }
 
 @media screen and (max-width: 700px) {
     .headshotCropped {
-        margin-left: 10%;
+        margin-left: 7%;
         height: 45vh;
     }
 }
 
 @media screen and (max-width: 630px) {
     .headshotCropped {
-        margin-left: 11%;
+        margin-left: 8%;
         height: 44vh;
     }
     
@@ -223,7 +222,7 @@
 @media screen and (max-width: 600px) {
     .headshotCropped {
         height: 38vh;
-        margin-left: 18%;
+        margin-left: 16%;
     }
 
     .halQuote {
@@ -250,7 +249,7 @@
 
     .headshotCropped {
         height: 38vh;
-        margin-left: 15%;
+        margin-left: 14%;
     }
 }
 
@@ -299,7 +298,7 @@
 
     .headshotCropped {
         height: 38vh;
-        margin-left: 8.5%;
+        margin-left: 10%;
     }
 }
 
